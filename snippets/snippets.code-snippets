@@ -1,1 +1,24 @@
-{}
+{
+    "Discord Js-Commando Snippets starter template": {
+        "prefix": "!djs",
+        "body": [
+            "const { Command } = require('discord.js-commando');",
+
+            "module.exports = class ClassName extends Command {",
+                "constructor(client) {",
+                    "super(client, {",
+                        "name: '${1:Name}',",
+                        "group: '',",
+                        "memberName: '',",
+                        "description: ''",
+                    "});",
+                "}",
+                
+                "async run(message, args) {",
+
+                "}",
+            "}"
+        ],
+        "description": "Creates Discord js-commando extention Template"
+    }
+}
