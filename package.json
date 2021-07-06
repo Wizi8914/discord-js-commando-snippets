@@ -2,7 +2,8 @@
     "name": "discord-js-commando-snippets",
     "displayName": "Discord Js-Commando Snippets",
     "description": "",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "Wizi",
     "engines": {
         "vscode": "^1.57.0"
     },
