@@ -3,22 +3,48 @@
         "prefix": "!djs",
         "body": [
             "const { Command } = require('discord.js-commando');",
-
-            "module.exports = class ClassName extends Command {",
-            "   constructor(client) {",
-            "       super(client, {",
-            "           name: '${1:Name}',",
-            "           group: '${2:group}',",
-            "           memberName: '${3:memberName}',",
-            "           description: '${4:description}'",
-            "       });",
-            "   }",
-                
-            "   async run(message, args) {",
-
-            "   }",
+            " ",
+            "module.exports = class ${1:ClassName} extends Command {",
+            "    constructor(client) {",
+            "        super(client, {",
+            "            name: '${2:<Name>}',",
+            "            group: '${3:<group>}',",
+            "            memberName: '${4:<memberName>}',",
+            "            description: '${5:<description>}'",
+            "        });",
+            "    }",
+            " ",
+            "    async run(message, args) {",
+            " ",
+            "    }",
             "}"
         ],
-        "description": "Creates Discord js-commando extention Template"
+        "description": "Creates Discord js-commando extention Template",
+    },
+    "Discord Js-Commando Snippets Embed template": {
+        "prefix": "!emb",
+        "body": [
+            "const embed = new MessageEmbed()",
+            "    .setColor('<Color>')",
+            "    .setTitle('<Title>')",
+			"    .setURL('<URL>')",
+            "    .setDescription('<Description>')",
+			"    .setAuthor('<Author>')",
+            "    .setFooter('<Footer>')",
+            "    .addFields(",
+			"        {",
+			"            name: '<name>',",
+			"            value: '<value>',",
+		    "        },",
+		    "        {",
+			"            name: '<name>',",
+			"            value: '<value>',",
+			"        },",
+			"        {",
+			"            name: '<name>',",
+			"            value: '<value>',",
+			"        }",
+			"    )"
+        ]
     }
 }
