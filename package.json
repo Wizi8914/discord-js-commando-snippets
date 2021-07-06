@@ -1,7 +1,7 @@
 {
     "name": "discord-js-commando-snippets",
     "displayName": "Discord Js-Commando Snippets",
-    "description": "",
+    "description": "A Simple extention For generate Discord Js and Discord Js-Commando Templates",
     "version": "1.0.0",
     "publisher": "Wizi",
     "repository": {
